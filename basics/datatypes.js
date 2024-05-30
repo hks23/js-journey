@@ -26,3 +26,4 @@ const myDetails = {
 const myFunctionEx = function(){
     console.log("Hellow World");
 }
+
