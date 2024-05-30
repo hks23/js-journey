@@ -44,7 +44,7 @@ function loginUserMessage(username = "sam"){ //default value of parameter userna
 function calculateCartPrice(val1, val2, ...num1){
     return num1
 }
-
+//val1 = 200 val2 = 400 and num1 = [500 , 2000]
 // console.log(calculateCartPrice(200, 400, 500, 2000))
 
 const user = {
