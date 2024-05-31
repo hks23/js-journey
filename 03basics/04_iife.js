@@ -5,7 +5,7 @@
     console.log(`DB CONNECTED`);
 })() ; //semicolon very important to halt the function
 
-((name)=>{
+((name   )=>{
     //unnamed IIFE
     console.log(`DB CONNECTED TO ${name}`);
 }) ('Harsh')

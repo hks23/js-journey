@@ -15,8 +15,8 @@ function one(){
     const username = "harsh"
 
     function two(){
-        const website = "google"
-        console.log(username);
+            const website = "google"
+    console.log(username);
     }
     // console.log(website);
 

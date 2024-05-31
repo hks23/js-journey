@@ -19,13 +19,13 @@ function chai(){
 }
 chai()  //returns undefined
 
-const chai = function () {
+const chaiNbiscuit = function () {
     let username = "hitesh"
     console.log(this.username);
 } 
 chai() //returns undefined
 
-const chai =  () => {
+const chaiNbiscuit2 =  () => {
     let username = "hitesh"
     console.log(this.username);
 }
@@ -35,16 +35,23 @@ chai() //returns undefined
 //     return num1 + num2
 // }
 
-// const addTwo = (num1, num2) =>  num1 + num2
+const addTwo1 = (   num1, num2) =>  num1 + num2
 
-// const addTwo = (num1, num2) => ( num1 + num2 )
+const    addTwo2 = (num1, num2) => ( num1 + num2 )
 
-const addTwo = (num1, num2) => ({username: "hitesh"})
+const addTwo3 = (num1, num2) => ({username: "hitesh"})
 
+//console.log(`the value you are printing is ${addTwo1} , ${addTwo2} , ${addTwo3}`);
 
-console.log(addTwo(3, 4))
+console.log(addTwo1(3, 4))
+console.log(addTwo2(4, 4))
+console.log(addTwo3(5, 4))
 
 
 // const myArray = [2, 5, 3, 7, 8]
 
 // myArray.forEach()
+if(2===2)
+{
+        console.log(`hello`);
+    }
